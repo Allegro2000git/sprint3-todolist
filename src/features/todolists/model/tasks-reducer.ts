@@ -1,4 +1,4 @@
-import type {Task, TasksState} from '../App'
+import type {Task, TasksState} from '@/app/App'
 import {createTodolistAC,deleteTodolistAC} from './todolists-reducer'
 import {createAction, createReducer, nanoid} from "@reduxjs/toolkit";
 
